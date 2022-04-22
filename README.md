@@ -1,6 +1,8 @@
 # Speedtest Service
 ---
 
+A simple speedtest CLI and package that leverages the Speedtest.net CLI tool.
+
 ## Module
 ---
 
