@@ -1,8 +1,12 @@
 {
   "name": "speedtest-service",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple speedtest CLI and package that leverages the Speedtest.net CLI tool.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dewhurstwill/speedtest-service.git"
+  },
   "scripts": {
     "install-cli": "npm install && npm link && speedtest-cli help",
     "uninstall-cli": "npm unlink speedtest-cli",
