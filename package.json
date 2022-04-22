@@ -1,0 +1,19 @@
+{
+  "name": "speedtest-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-cli": "npm install && npm link && speedtest-cli help",
+    "uninstall": "npm unlink speedtest-cli",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Will Dewhurst",
+  "license": "MIT",
+  "dependencies": {
+    "is-online": "^9.0.1"
+  },
+  "bin": {
+    "speedtest-cli": "./bin/cli.js"
+  }
+}
