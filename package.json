@@ -1,11 +1,11 @@
 {
   "name": "speedtest-service",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A simple speedtest CLI and package that leverages the Speedtest.net CLI tool.",
   "main": "index.js",
   "scripts": {
     "install-cli": "npm install && npm link && speedtest-cli help",
-    "uninstall": "npm unlink speedtest-cli",
+    "uninstall-cli": "npm unlink speedtest-cli",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Will Dewhurst",
