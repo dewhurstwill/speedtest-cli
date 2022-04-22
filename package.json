@@ -1,6 +1,6 @@
 {
   "name": "speedtest-service",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple speedtest CLI and package that leverages the Speedtest.net CLI tool.",
   "main": "index.js",
   "repository": {
