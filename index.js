@@ -13,6 +13,7 @@ async function main(isDebug) {
     const splitOutput = speedtestOutput.split('\n');
     const result = buildResult(splitOutput, isDebug);
     console.log(result);
+    return result;
   } catch (error) {
     console.error(error.toString());
     process.exit(1);

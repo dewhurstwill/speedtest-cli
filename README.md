@@ -3,7 +3,7 @@
 
 A simple speedtest CLI and package that leverages the Speedtest.net CLI tool.
 
-## Prequesties
+## Prerequisites
 ---
 
 Ensure that speedtest is installed. [Available here.](https://www.speedtest.net/apps/cli)
